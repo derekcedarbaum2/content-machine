@@ -1,0 +1,12 @@
+{
+  "name": "content-machine",
+  "version": "1.0.0",
+  "description": "An AI-native content pipeline for Claude Code: an Oracle that mines your week for content ideas, an interview panel that extracts your actual thinking, a drafting step locked to your own words, a writers council that gates quality, and a lessons loop that makes the whole thing improve with use. Rebuilt from Alex Lieberman's content machine (How I AI, July 2026).",
+  "author": {
+    "name": "Derek Cedarbaum",
+    "url": "https://github.com/derekcedarbaum2"
+  },
+  "homepage": "https://github.com/derekcedarbaum2/content-machine",
+  "license": "MIT",
+  "keywords": ["content", "writing", "claude-code", "skills", "marketing", "distribution"]
+}
