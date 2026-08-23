@@ -7,7 +7,7 @@ allowed-tools: [Read, Write, Edit, Glob, Grep, Bash, AskUserQuestion]
 
 # Lessons — the loop that makes the machine yours
 
-This is why the machine improves with use where generic AI writing doesn't: every edit the user makes is a training signal, captured as prose rules the drafting step must obey forever after. Personal folder resolution: `~/.content-machine/redirect.md` first line if present, else `~/.content-machine/`.
+The lessons loop is why the machine improves with use where generic AI writing doesn't: every edit the user makes is a training signal, captured as prose rules the drafting step must obey forever after. Personal folder resolution: `~/.content-machine/redirect.md` first line if present, else `~/.content-machine/`.
 
 ## Inputs
 

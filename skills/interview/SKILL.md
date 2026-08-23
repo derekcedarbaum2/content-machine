@@ -27,7 +27,7 @@ Skip for pure lived-experience spikes — the user already has the material.
 
 ## Step 3 — The panel
 
-Run per the shared rules in `reference/interviewer-personas.md`: one question at a time, rotating personas (label each question with the persona), ~5 questions total, every follow-up built on the previous answer, always chasing specificity. Encourage voice-to-text answers — speed produces unguarded phrasing, and unguarded phrasing is voice.
+Run per the shared rules in `reference/interviewer-personas.md`. Ask one question at a time. Rotate personas, and label each question with its persona. Ask ~5 questions total. Build every follow-up on the previous answer. Always chase specificity. Encourage voice-to-text answers — speed produces unguarded phrasing, and unguarded phrasing is voice.
 
 **Stop condition:** you have (a) at least one lived story with specifics, (b) a falsifiable position, (c) at least two concrete details (names/numbers/quotes). If 5 questions haven't produced these, say which is missing and ask up to 3 more — don't draft from a corpus that fails this bar.
 
