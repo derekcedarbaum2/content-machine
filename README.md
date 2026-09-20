@@ -10,6 +10,8 @@ The machine never writes for you. It interviews you, then rearranges what you sa
 
 Three files make it yours: a profile, a voice guide built from studying your ten best posts, and a lessons file that accumulates every correction you make. The machine gets more like you with every piece.
 
+See the [fictional founder example](example/personal/profile.md), its [interview transcript](example/personal/transcripts/2026-07-16-alert-theory.md), and the [resulting draft](example/personal/drafts/2026-07-16-alert-theory.md).
+
 ## The pipeline
 
 ```
@@ -30,21 +32,17 @@ Three files make it yours: a profile, a voice guide built from studying your ten
 
 ## Install
 
-**As a Claude Code plugin:**
-
-```
-/plugin install derekcedarbaum2/content-machine
-```
-
-**Or clone and use directly:**
+Clone the plugin and load it explicitly in Claude Code:
 
 ```bash
 git clone https://github.com/derekcedarbaum2/content-machine.git
 cd content-machine
-claude   # skills are picked up from skills/
+claude --plugin-dir .
 ```
 
-Then run `/content-setup`. It builds your personal folder (default `~/.content-machine/`, relocatable), interviews you for your profile, and studies your top posts to write your voice guide. Nothing personal lives in this repo — the machine is shared, your voice is not.
+Run `/content-machine:content-setup`. Plugin commands use the `content-machine:` namespace, so `/draft` in the workflow above becomes `/content-machine:draft`.
+
+It builds your personal folder (default `~/.content-machine/`, relocatable), interviews you for your profile, and studies your top posts to write your voice guide. Nothing personal lives in this repo — the machine is shared, your voice is not.
 
 ## What's where
 
@@ -67,3 +65,15 @@ The Oracle reads whatever your Claude Code environment can reach — MCP servers
 ## License
 
 MIT. The architecture is Alex Lieberman's, described publicly on the podcast; this implementation and the rubrics are original work.
+
+## Support and validation
+
+Claude Code with local plugin support. The workflow is Markdown; other agents can read it, but plugin loading is verified only for the documented Claude Code layout.
+
+This is an independently maintained project. Report reproducible bugs through Issues; security reports follow [SECURITY.md](SECURITY.md). The latest release and default branch receive fixes, with no response-time guarantee.
+
+Run the local checks with:
+
+```bash
+python3 -m unittest discover -s tests -v
+```
